@@ -1,0 +1,151 @@
+{
+  "tipo_impresion": "3",
+  "path_local": "/Applications/XAMPP/htdocs/desarrollo_casa_2024/",
+  "modulos": [
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "1",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/talones_pago",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Cotización de venta",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cotizacion_venta",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "1",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución antes de validación",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Edición de nota de venta",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Devolución después de validación",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Ticket de venta",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/ventas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Solicitud de factura ",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/solicitudes_factura",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "1",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Corte de caja",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Validación de corte caja",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Etiquetas de empaquetado",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/etiquetas_empaquetado",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "1",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Etiquetas de Precios",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/etiquetas_precios",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Transferencias Rápidas",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/transferencias_rapidas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": ""
+    },
+    {
+      "nombre_modulo": "Recepción de Transferencias",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/recepcion_transferencias",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": ""
+    }
+  ],
+  "puerto_impresion": "1000",
+  "intervalo_descarga": "3000",
+  "url_api": "http://sistemageneralcasa.com/desarrollo_linea_2023/",
+  "impresoras_especificas": [],
+  "intervalo_impresion": "1000"
+}

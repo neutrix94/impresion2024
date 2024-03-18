@@ -1,0 +1,292 @@
+{
+  "tipo_impresion": "3",
+  "path_local": "/Applications/XAMPP/htdocs/desarrollo_casa_2024",
+  "modulos": [
+    {
+      "nombre_modulo": "Devolución antes de validación",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "1",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Edición de nota de venta",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución después de validación",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ticket de venta",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/ventas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Solicitud de factura ",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/solicitudes_factura",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Corte de caja",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Validación de corte caja",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas de empaquetado",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/etiquetas_empaquetado",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas de Precios",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/etiquetas_precios",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Transferencias Rápidas",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/transferencias_rapidas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Recepción de Transferencias",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/recepcion_transferencias",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/talones_pago",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Cotización de venta",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cotizacion_venta",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/talones_pago",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Cotización de venta",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cotizacion_venta",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución antes de validación",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Edición de nota de venta",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución después de validación",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ticket de venta",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/ventas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Solicitud de factura ",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/solicitudes_factura",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Corte de caja",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Validación de corte caja",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas de empaquetado",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/etiquetas_empaquetado",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas de Precios",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/etiquetas_precios",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Transferencias Rápidas",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/transferencias_rapidas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Recepción de Transferencias",
+      "impresora": "Ejemplo",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/recepcion_transferencias",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    }
+  ],
+  "puerto_impresion": "1337",
+  "intervalo_descarga": "30",
+  "url_api": "http://sistemageneralcasa.com/desarrollo_linea_2024",
+  "id_sucursal": "1",
+  "intervalo_impresion": "10",
+  "nombre_sucursal": "Matriz"
+}

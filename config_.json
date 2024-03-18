@@ -1,0 +1,200 @@
+{
+    "tipo_impresion" : "3",
+    "url_api" : "http://sisttemageneralcasa.com",
+    "intervalo_impresion" : "100",
+    "intervalo_descarga" : "200",
+    "modulos": [
+        {
+            "nombre_modulo": "Ventas pendientes de validar",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/validaciones_pendientes",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Talón de Pago",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/talones_pago",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Cotización de venta",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/cotizacion_venta",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Devolución antes de validación",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/devoluciones",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Edición de nota de venta",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/devoluciones",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Devolución después de validación",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/devoluciones",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Ticket de venta",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/ventas",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Solicitud de factura ",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/solicitudes_factura",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Corte de caja",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/cortes_caja",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Validación de corte caja",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/validaciones_cortes_caja",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Etiquetas de empaquetado",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/etiquetas_empaquetado",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Etiquetas de Precios",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/etiquetas_precios",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Transferencias Rápidas",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/transferencias_rapidas",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Recepción de Transferencias",
+            "usuario": "Matriz",
+            "ruta": "cache/Matriz/recepcion_transferencias",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        }
+    ],
+    "impresoras_especificas": [
+        {
+            "nombre_modulo": "Ventas pendientes de validar",
+            "usuario": "cajero matriz ",
+            "ruta": "cache/Matriz/validaciones_pendientes/cajero_uno",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Cotización de venta",
+            "usuario": "cajero matriz ",
+            "ruta": "cache/Matriz/cotizacion_venta/cajero_uno_uno",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Corte de caja",
+            "usuario": "cajero matriz ",
+            "ruta": "cache/Matriz/cortes_caja/cajero_01",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "pdf",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Validación de corte caja",
+            "usuario": "cajero matriz ",
+            "ruta": "cache/Matriz/validaciones_cortes_caja/cajero_001",
+            "impresora": "OKIPOS",
+            "comando_impresion": "",
+            "extension_archivo": "PDF",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        },
+        {
+            "nombre_modulo": "Talón de Pago",
+            "usuario": "Encargado Matriz ",
+            "ruta": "cache/Matriz/talones_pago",
+            "impresora": "OKIPOS",
+            "comando_impresion": "lpr -p {ARCHIVO} {IMPRESORA}",
+            "extension_archivo": "PDF",
+            "habilitado": "0",
+            "endpoint_api_destino": ""
+        }
+    ]
+}

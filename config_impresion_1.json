@@ -1,0 +1,202 @@
+{
+  "tipo_impresion": "3",
+  "path_local": "/Applications/XAMPP/htdocs/desarrollo_casa_2024",
+  "modulos": [
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/talones_pago",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Cotización de venta",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cotizacion_venta",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución antes de validación",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Edición de nota de venta",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución después de validación",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ticket de venta",
+      "impresora": "OKIPOS",
+      "comando_impresion": "lpr -p {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/ventas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "1",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Solicitud de factura ",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/solicitudes_factura",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Corte de caja",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Validación de corte caja",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas de empaquetado",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/etiquetas_empaquetado",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas de Precios",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/etiquetas_precios",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Transferencias Rápidas",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/transferencias_rapidas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Recepción de Transferencias",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/recepcion_transferencias",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_pendientes/cajero_uno",
+      "endpoint_api_destino": "",
+      "usuario": "cajero matriz ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Cotización de venta",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cotizacion_venta/cajero_uno_uno",
+      "endpoint_api_destino": "",
+      "usuario": "cajero matriz ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Corte de caja",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/cortes_caja/cajero_01",
+      "endpoint_api_destino": "",
+      "usuario": "cajero matriz ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Validación de corte caja",
+      "impresora": "OKIPOS",
+      "comando_impresion": "",
+      "ruta": "cache/Matriz/validaciones_cortes_caja/cajero_001",
+      "endpoint_api_destino": "",
+      "usuario": "cajero matriz ",
+      "habilitado": "0",
+      "extension_archivo": "PDF"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "OKIPOS",
+      "comando_impresion": "lpr -p {ARCHIVO} {IMPRESORA}",
+      "ruta": "cache/Matriz/talones_pago",
+      "endpoint_api_destino": "",
+      "usuario": "Encargado Matriz ",
+      "habilitado": "0",
+      "extension_archivo": "PDF"
+    }
+  ],
+  "puerto_impresion": "3306",
+  "intervalo_descarga": "10",
+  "url_api": "http://sistemageneralcasa.com/desarrollo_linea_2024/rest",
+  "id_sucursal": "4",
+  "intervalo_impresion": "3",
+  "nombre_sucursal": "Casa"
+}
