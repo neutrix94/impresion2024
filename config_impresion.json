@@ -1,6 +1,6 @@
 {
   "tipo_impresion": "2",
-  "path_local": "",
+  "path_local": "/Applications/XAMPP/htdocs/desarrollo_cobros_e_impresion",
   "modulos": [
     {
       "nombre_modulo": "Talón de Pago",
@@ -206,7 +206,8 @@
   "puerto_impresion": "1337",
   "intervalo_descarga": "30",
   "url_api": "http://192.168.1.223/desarrollo_cobros_e_impresion",
-  "url_api_local": "",
+  "url_api_local": "http://192.168.1.223/desarrollo_cobros_e_impresion",
+  "path_windows": "C:\\users",
   "id_sucursal": "1",
   "intervalo_impresion": "3",
   "nombre_sucursal": "Matriz"

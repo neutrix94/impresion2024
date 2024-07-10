@@ -134,6 +134,7 @@ public class Configuracion {
             json.put( "id_sucursal", sucursal[0]);
             json.put( "nombre_sucursal", sucursal[1]);
             json.put( "url_api_local", "");
+            json.put( "path_windows", "");
             json.put("modulos", Arreglo.getJSONArray( "modulos" ) );
         } catch (JSONException e) {
             e.printStackTrace();
