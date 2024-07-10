@@ -27,7 +27,6 @@ public class DescargaArchivos {
     public DescargaArchivos( String url_api, String path_local ){
         this.URL_API = url_api;
         this.PATH_LOCAL = path_local;
-        //System.out.println("URL : " + URL_API);
     }
     
 //busqueda de archivos
@@ -128,7 +127,8 @@ public class DescargaArchivos {
             in.close();
             return "ok";
         }catch( Exception e ){
-            JOptionPane.showMessageDialog( null, "Error : " + e );
+            System.out.println("Error : " + e);
+            //JOptionPane.showMessageDialog( null, "Error : " + e );
             return "no";
         }
     }
@@ -149,7 +149,6 @@ public class DescargaArchivos {
             wr.writeBytes(urlParameters);
             wr.flush();
             wr.close();
-           // conexion.setRequestProperty("id_sucursal", "1");
             BufferedReader rd = new BufferedReader(new InputStreamReader(conexion.getInputStream()));
             String linea;
             while ((linea = rd.readLine()) != null) {
@@ -159,7 +158,8 @@ public class DescargaArchivos {
             System.out.println("REsultado : " + resultado.toString());
             return "ok";
         }catch( Exception e ){
-            JOptionPane.showMessageDialog( null, "Error : " + e );
+            System.out.println("Error : " + e);
+            //JOptionPane.showMessageDialog( null, "Error : " + e );
             return "no";
         }
     }

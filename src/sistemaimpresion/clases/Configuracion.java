@@ -14,7 +14,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
-//import java.util.Arrays;
 import java.util.HashMap;
 import javax.swing.JOptionPane;
 import org.json.JSONArray;
@@ -23,10 +22,8 @@ import org.json.JSONObject;
 
 import org.json.simple.parser.*;
 import sistemaimpresion.form.ConfiguracionFormulario;
-/**
- *
- * @author oscarmendoza
- */
+
+
 public class Configuracion {
     String URL_API;
     public Configuracion() {
@@ -61,7 +58,7 @@ public class Configuracion {
 //solicita url del API
     public String solicitarUrlApi() throws IOException, ParseException{
         Object [] sucursales ={ "0 - Seleccionar Sucursal", "1 - Matriz", "2 - San Miguel", "3 - Trojes", "4 - Casa", "5 - Checo",
-        "6 - Palma", "7 - Viveros", "8 - Lopez", "9 - Lago", "10 - Centro Urbano", "11 - Satélite" };
+        "6 - Palma", "7 - Viveros", "8 - Lopez", "9 - Lago", "10 - Centro Urbano", "11 - Satelite" };
         Object opcion = JOptionPane.showInputDialog(null,"Selecciona una sucursal", "Elegir",JOptionPane.QUESTION_MESSAGE,null,sucursales, sucursales[0]);;
         while( opcion.toString().equals( null ) || opcion.toString().equals( "0 - Seleccionar Sucursal" ) ){
             opcion = JOptionPane.showInputDialog(null,"Selecciona una sucursal", "Elegir",JOptionPane.QUESTION_MESSAGE,null,sucursales, sucursales[0]);
@@ -85,8 +82,6 @@ public class Configuracion {
     
 //validacion de URL de Configuracion de API
     public Boolean validaUrlApi( String url_api, String[] sucursal ) throws MalformedURLException, ProtocolException, IOException, ParseException{
-//System.out.println("sucursal : " + sucursal[0] );
-//System.exit(0);
         String[] registrosPendientes;
         String urlParaVisitar = url_api;
         StringBuilder resultado = new StringBuilder();
@@ -168,6 +163,7 @@ public class Configuracion {
         String id_sucursal = configuraciones.getString("id_sucursal");
         String nombre_sucursal = configuraciones.getString("nombre_sucursal");
         String url_api_local = configuraciones.getString("url_api_local");
+        String path_windows = configuraciones.getString("path_windows");
         String sucursal = id_sucursal + " - " + nombre_sucursal;
        //libreria de verificacion de carpetas
        Carpetas carpetas = new Carpetas( path_local, url_api );
@@ -176,30 +172,34 @@ public class Configuracion {
         for (int i = 0; i < modulos.length(); i++) {
             JSONObject contenido_modulos = new JSONObject ( modulos.get(i).toString() );
             Boolean habilitado = ( contenido_modulos.getString("habilitado").equals("1") ? true : false );
+            String comando = contenido_modulos.getString("comando_impresion");
+            String comando_ = comando;
+            if( ! "".equals(path_windows) ){   
+                comando_ = comando.replace( "WINDOWS___ROUTE", path_windows);
+            }
             formulario.modelo_tabla_impresoras.addRow( new Object[]{
             contenido_modulos.getString("nombre_modulo"),
             contenido_modulos.getString("usuario"),
             contenido_modulos.getString("ruta"),
             contenido_modulos.getString("impresora"),
             contenido_modulos.getString("extension_archivo"),
-            contenido_modulos.getString("comando_impresion"),
+            comando_,
             habilitado,
             contenido_modulos.getString("endpoint_api_destino")} );
            //verifica si la carpeta existe, si no existe la crea
             carpetas.verificacion_existencia_carpeta( contenido_modulos.getString("ruta") );
         }
-        if( tipo_impresion.equals( "1" ) ){
-            formulario.tipo_impresion_1.setSelected( true );
-            formulario.tipo_impresion_2.setSelected( false );
-            formulario.tipo_impresion_3.setSelected( false );
-        }else if( tipo_impresion.equals( "2" ) ){
-            formulario.tipo_impresion_1.setSelected( false );
+        if( tipo_impresion.equals( "2" ) ){
+            //formulario.tipo_impresion_1.setSelected( false );
             formulario.tipo_impresion_2.setSelected( true );
             formulario.tipo_impresion_3.setSelected( false );
         }else if( tipo_impresion.equals( "3" ) ){
-            formulario.tipo_impresion_1.setSelected( false );
+            //formulario.tipo_impresion_1.setSelected( false );
             formulario.tipo_impresion_2.setSelected( false );
             formulario.tipo_impresion_3.setSelected( true );
+        }else{
+            formulario.tipo_impresion_2.setSelected( false );
+            formulario.tipo_impresion_3.setSelected( false );
         }
         formulario.path_api_local.setText( url_api_local );
         formulario.url_api_general.setText( url_api );
@@ -207,6 +207,7 @@ public class Configuracion {
         formulario.intervalo_busqueda.setText( intervalo_descarga );
         formulario.puerto_impresion.setText( puerto_impresion );
         formulario.path_local.setText( path_local );
+        formulario.path_windows.setText( path_windows );
         formulario.id_sucursal.setSelectedItem(sucursal); //setText( id_sucursal );
         formulario.setVisible(true);
     }
@@ -229,6 +230,7 @@ public class Configuracion {
         arreglo_configuracion.put( "nombre_sucursal", configuraciones.getString("nombre_sucursal"));
         arreglo_configuracion.put( "id_sucursal", configuraciones.getString("id_sucursal"));
         arreglo_configuracion.put( "url_api_local", configuraciones.getString("url_api_local"));
+        arreglo_configuracion.put( "path_windows", configuraciones.getString("path_windows"));
     //carpetas generales
         JSONArray modulos = new JSONArray( configuraciones.getJSONArray("modulos") );
         HashMap<String, HashMap<String, Object>> arreglo_impresoras = new HashMap<>();
@@ -238,13 +240,15 @@ public class Configuracion {
             Boolean habilitado = ( contenido_modulos.getString("habilitado").equals("1") ? true : false );
             HashMap<String, Object> impresora = new HashMap<>();
             if( habilitado == true ){
+                String comando = contenido_modulos.getString("comando_impresion");
+                String comando_ = comando.replace( "WINDOWS___ROUTE", configuraciones.getString("path_windows"));
                 String llave = "impresora_" + contador_impresoras;
                 impresora.put( "nombre_modulo", contenido_modulos.getString("nombre_modulo") );            
                 impresora.put( "usuario", contenido_modulos.getString("usuario") );
                 impresora.put( "ruta", contenido_modulos.getString("ruta") );
                 impresora.put( "impresora", contenido_modulos.getString("impresora") );
                 impresora.put( "extension_archivo", contenido_modulos.getString("extension_archivo") );
-                impresora.put( "comando_impresion", contenido_modulos.getString("comando_impresion") );
+                impresora.put( "comando_impresion", comando_ );//contenido_modulos.getString("comando_impresion")
                 impresora.put( "endpoint_api_destino", contenido_modulos.getString("endpoint_api_destino") );
                 arreglo_impresoras.put(llave, impresora );
                 contador_impresoras ++;

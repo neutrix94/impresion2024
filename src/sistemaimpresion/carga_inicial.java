@@ -9,9 +9,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
-/*import static sincronizacionsistema.main.main;
-import static sincronizacionsistema.main.retardo_inicial;
-import static sincronizacionsistema.main.ruta_config;*/
 
 public class carga_inicial {
     

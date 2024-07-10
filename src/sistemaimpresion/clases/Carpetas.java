@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package sistemaimpresion.clases;
 
 import java.io.IOException;
@@ -10,10 +6,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 
-/**
- *
- * @author oscarmendoza
- */
 public class Carpetas {
     private static String PATH_LOCAL, URL_API;
     public Carpetas( String path, String url_api ){
@@ -63,7 +55,6 @@ public class Carpetas {
             System.out.println("Error al ejecutar el comando.");
         }
     }
-
     
     public HashMap<String, HashMap<String, Object>> buscar_actualizacion_carpetas(){
         HashMap<String, HashMap<String, Object>> actualizaciones = new HashMap<String, HashMap<String, Object>>(); 

@@ -53,7 +53,7 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        tipo_impresion_1 = new javax.swing.JCheckBox();
+        tipo_impresion_2 = new javax.swing.JCheckBox();
         tipo_impresion_3 = new javax.swing.JCheckBox();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabla_impresoras = new javax.swing.JTable();
@@ -63,7 +63,7 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         intervalo_local = new javax.swing.JTextField();
-        tipo_impresion_2 = new javax.swing.JCheckBox();
+        tipo_impresion_1 = new javax.swing.JCheckBox();
         jButton1 = new javax.swing.JButton();
         path_local = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
@@ -73,6 +73,8 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         id_sucursal = new javax.swing.JComboBox<>();
         jLabel6 = new javax.swing.JLabel();
         path_api_local = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        path_windows = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -84,16 +86,16 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
             }
         });
 
-        tipo_impresion_1.setFont(new java.awt.Font("Noteworthy", 0, 20)); // NOI18N
-        tipo_impresion_1.setText("Descarga desde linea, imp. local");
-        tipo_impresion_1.addActionListener(new java.awt.event.ActionListener() {
+        tipo_impresion_2.setFont(new java.awt.Font("Noteworthy", 0, 20)); // NOI18N
+        tipo_impresion_2.setText("Envia linea a local (NOIP)");
+        tipo_impresion_2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tipo_impresion_1ActionPerformed(evt);
+                tipo_impresion_2ActionPerformed(evt);
             }
         });
 
         tipo_impresion_3.setFont(new java.awt.Font("Noteworthy", 0, 20)); // NOI18N
-        tipo_impresion_3.setText("Buscar archivos de Local a Linea");
+        tipo_impresion_3.setText("Busqueda de Local a Linea");
         tipo_impresion_3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tipo_impresion_3ActionPerformed(evt);
@@ -146,11 +148,13 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
             }
         });
 
-        tipo_impresion_2.setFont(new java.awt.Font("Noteworthy", 0, 20)); // NOI18N
-        tipo_impresion_2.setText("Solo Impresion Local");
-        tipo_impresion_2.addActionListener(new java.awt.event.ActionListener() {
+        tipo_impresion_1.setFont(new java.awt.Font("Noteworthy", 0, 20)); // NOI18N
+        tipo_impresion_1.setSelected(true);
+        tipo_impresion_1.setText("Impresion Local");
+        tipo_impresion_1.setEnabled(false);
+        tipo_impresion_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tipo_impresion_2ActionPerformed(evt);
+                tipo_impresion_1ActionPerformed(evt);
             }
         });
 
@@ -195,6 +199,15 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
             }
         });
 
+        jLabel7.setFont(new java.awt.Font("Kokonor", 0, 18)); // NOI18N
+        jLabel7.setText("Path Sumatra (Windows) :");
+
+        path_windows.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                path_windowsActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -207,10 +220,11 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(id_sucursal, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(21, 21, 21))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(tipo_impresion_3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(tipo_impresion_2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(tipo_impresion_1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(tipo_impresion_2, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(tipo_impresion_3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tipo_impresion_1, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -231,12 +245,14 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(puerto_impresion, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(intervalo_local, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(intervalo_busqueda, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(intervalo_busqueda, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(path_windows, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(layout.createSequentialGroup()
                             .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 631, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -257,38 +273,42 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
                             .addComponent(intervalo_local, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(url_api_general, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(tipo_impresion_1, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(tipo_impresion_2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(11, 11, 11)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(path_local, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(intervalo_busqueda, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGap(20, 20, 20)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(puerto_impresion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(6, 6, 6)
-                            .addComponent(tipo_impresion_3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
-                            .addComponent(id_sucursal, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(path_api_local, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
+                        .addComponent(tipo_impresion_1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(tipo_impresion_2, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(tipo_impresion_3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(id_sucursal, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(intervalo_busqueda, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(20, 20, 20)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(puerto_impresion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(path_windows, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(path_local, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(path_api_local, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(21, 21, 21)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -298,14 +318,15 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void tipo_impresion_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tipo_impresion_1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tipo_impresion_1ActionPerformed
+    private void tipo_impresion_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tipo_impresion_2ActionPerformed
+        if( tipo_impresion_2.isSelected() ){
+            tipo_impresion_3.setSelected(false );
+        }
+    }//GEN-LAST:event_tipo_impresion_2ActionPerformed
 
     private void tipo_impresion_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tipo_impresion_3ActionPerformed
-        // TODO add your handling code here:
-        if( tipo_impresion_3.isEnabled() == true ){
-            
+        if( tipo_impresion_3.isSelected() ){
+            tipo_impresion_2.setSelected(false );
         }
     }//GEN-LAST:event_tipo_impresion_3ActionPerformed
 
@@ -338,9 +359,9 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_intervalo_localActionPerformed
 
-    private void tipo_impresion_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tipo_impresion_2ActionPerformed
+    private void tipo_impresion_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tipo_impresion_1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tipo_impresion_2ActionPerformed
+    }//GEN-LAST:event_tipo_impresion_1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
@@ -374,8 +395,8 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
     //arreglo_impresoras.put( "" );
         String nombre_configuracion = "config_impresion.json";
         JSONObject configuracion = new JSONObject();
-        
-        configuracion.put("tipo_impresion", "3" );
+        String tipo_impresion = ( tipo_impresion_2.isSelected() == true ? "2" : ( tipo_impresion_3.isSelected() == true ? "3" : "1" ) );
+        configuracion.put("tipo_impresion", tipo_impresion );
         configuracion.put("url_api", url_api_general.getText() );
         configuracion.put("intervalo_impresion", intervalo_local.getText() );
         configuracion.put("intervalo_descarga", intervalo_busqueda.getText() );
@@ -416,6 +437,10 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
     private void path_api_localActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_path_api_localActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_path_api_localActionPerformed
+
+    private void path_windowsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_path_windowsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_path_windowsActionPerformed
 
     /**
      * @param args the command line arguments
@@ -465,9 +490,11 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JScrollPane jScrollPane1;
     public static javax.swing.JTextField path_api_local;
     public static javax.swing.JTextField path_local;
+    public static javax.swing.JTextField path_windows;
     public static javax.swing.JTextField puerto_impresion;
     private javax.swing.JTable tabla_impresoras;
     public static javax.swing.JCheckBox tipo_impresion_1;

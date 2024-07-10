@@ -1,0 +1,333 @@
+{
+  "tipo_impresion": "2",
+  "path_local": "/Applications/XAMPP/htdocs/desarrollo_cobros_e_impresion",
+  "modulos": [
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/talones_pago",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Cotización de venta",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/cotizacion_venta",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución antes de validación",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas de precio medianas",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_precio_medianas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Edición de nota de venta",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución después de validación",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ticket de venta",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/ventas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Solicitud de factura ",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/solicitudes_factura",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "1",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Corte de caja",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Validación de corte caja",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_cortes_caja",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Transferencias Rápidas",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/transferencias_rapidas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Recepción de Transferencias",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/recepcion_transferencias",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas de precio grandes",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_precio_grandes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "example_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas empaquetado de caja sello y paquete",
+      "impresora": "example_01",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_empaquetado_paquetes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "txt"
+    },
+    {
+      "nombre_modulo": "Etiquetas empaquetado de pieza",
+      "impresora": "example_01",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_empaquetado_piezas",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "txt"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "Oki407II_Lg_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/talones_pago/Encaragdo_Casa",
+      "endpoint_api_destino": "",
+      "usuario": "Encargado Casa ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "Oki_407II_Mt_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/talones_pago/fijocs",
+      "endpoint_api_destino": "",
+      "usuario": "PUNTO   FIJO CASA",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Cotización de venta",
+      "impresora": "Oki407II_Cs_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/etiqueta_precio_medianas",
+      "endpoint_api_destino": "",
+      "usuario": "Encargado Casa ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ticket de venta",
+      "impresora": "TscTE210_Cs_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/ventas/modventas_user1",
+      "endpoint_api_destino": "",
+      "usuario": "user1 1 1",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "TscTE210_Cs_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/talones_pago/tdp_user1",
+      "endpoint_api_destino": "",
+      "usuario": "user1 1 1",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución antes de validación",
+      "impresora": "Oki_407II_Mt_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/devoluciones/devoluciones_user1",
+      "endpoint_api_destino": "",
+      "usuario": "user1 1 1",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución después de validación",
+      "impresora": "Oki407II_Lg_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/devoluciones/devoluciones_user1",
+      "endpoint_api_destino": "",
+      "usuario": "user1 1 1",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "TscTE210_Cs_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/talones_pago/tdp_yotzin",
+      "endpoint_api_destino": "",
+      "usuario": "Yotzin Pruebas ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "Oki_407II_Mt_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/validaciones_pendientes/cajero-casa",
+      "endpoint_api_destino": "",
+      "usuario": "cajero-casa 2023 ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución antes de validación",
+      "impresora": "Oki407II_Lg_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/devoluciones/cajero_casa_devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "cajero-casa 2023 ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Devolución después de validación",
+      "impresora": "Oki407II_Lg_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/devoluciones/cajero_casa_devoluciones",
+      "endpoint_api_destino": "",
+      "usuario": "cajero-casa 2023 ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "Oki_407II_Mt_01",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/CASA/validaciones_pendientes/val_pend_user1",
+      "endpoint_api_destino": "",
+      "usuario": "user1 1 1",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Transferencias Rápidas",
+      "impresora": "impresora_pz",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/ventas/ejemplo_001",
+      "endpoint_api_destino": "",
+      "usuario": "Andres etiquetas ",
+      "habilitado": "0",
+      "extension_archivo": "txt"
+    },
+    {
+      "nombre_modulo": "Ticket de venta",
+      "impresora": "Oki_407II_Mt_01",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/CASA/validaciones_pendientes/cajero-casa",
+      "endpoint_api_destino": "",
+      "usuario": "Encargado Casa ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Etiquetas empaquetado de pieza",
+      "impresora": "example_01",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_empaquetado_piezas/cjmt_pz",
+      "endpoint_api_destino": "",
+      "usuario": "Encargado Matriz ",
+      "habilitado": "0",
+      "extension_archivo": "txt"
+    },
+    {
+      "nombre_modulo": "Etiquetas empaquetado de caja sello y paquete",
+      "impresora": "example_01",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_empaquetado_paquetes/cjmt_pq",
+      "endpoint_api_destino": "",
+      "usuario": "Encargado Matriz ",
+      "habilitado": "0",
+      "extension_archivo": "txt"
+    }
+  ],
+  "puerto_impresion": "1337",
+  "intervalo_descarga": "30",
+  "url_api": "https://sistemageneralcasa.com/desarrollo_cobros_e_impresion",
+  "url_api_local": "http://192.168.1.223/desarrollo_cobros_e_impresion",
+  "id_sucursal": "1",
+  "intervalo_impresion": "3",
+  "nombre_sucursal": "Matriz"
+}

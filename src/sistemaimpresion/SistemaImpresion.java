@@ -1,11 +1,9 @@
+/*Version Junio 2024*/
 package sistemaimpresion;
 /*Importaciones*/
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
-//import java.io.FileReader;
-//import java.io.FileWriter;
+
 import java.io.IOException;
 import javax.swing.JOptionPane;
 import java.net.ServerSocket;
@@ -14,18 +12,13 @@ import javax.swing.table.DefaultTableModel;
 import org.json.simple.parser.ParseException;
 import sistemaimpresion.clases.ApiServer;
 import sistemaimpresion.clases.BarridoImpresion;
-//import org.json.simple.parser.ParseException;
-
 import sistemaimpresion.form.informeImpresiones;
-//import sistemaimpresion.form.ConfiguracionFormulario;
+
 import sistemaimpresion.clases.Configuracion;
 import sistemaimpresion.clases.DescargaArchivos;
 
 public class SistemaImpresion {
-    
 //Variables globales
-    //public static conexion_doble conecta;
-    //public static tickets tk;
     public static DescargaArchivos descarga_archivos;
     public static String comando, impresora, ruta_config, local_path;
     public static HashMap<String, Object> rutas_tkt = new HashMap<String, Object>();
@@ -42,8 +35,7 @@ public class SistemaImpresion {
 
     public static void main(String[] args) throws InterruptedException, IOException, FileNotFoundException, ParseException {
         Configuracion c = new Configuracion();//instancia clase de configuracion
-       //comprueba si ya existe el archivo de configuracion
-       File configuracion = new File("config_impresion.json");
+        File configuracion = new File("config_impresion.json");//comprueba si ya existe el archivo de configuracion
     	if (!configuracion.exists()) {
             c.solicitarUrlApi();
     	}else {
@@ -78,9 +70,7 @@ public class SistemaImpresion {
                         carpeta.get( "extension_archivo" ).toString()
                     });
             }
-        //muestra ventana de informe de impresion
-            //tabla_barrido_impresiones = tabla_barrido_impresiones.getModel();
-            i.informeImpresion.append(i.carga_inicial());
+            i.informeImpresion.append(i.carga_inicial());//muestra ventana de informe de impresion
             i.setVisible(true);
         //hilos
            APIServer();
@@ -96,15 +86,10 @@ public class SistemaImpresion {
                 tiempo_inicio = System.currentTimeMillis();
                 for (HashMap.Entry<String,Object> carpetas : rutas_tkt.entrySet()) {
                     String claveExterna = carpetas.getKey().toString();
-                    //System.out.println(carpetas.getValue());
                     HashMap<String, Object> carpeta = (HashMap<String, Object>)carpetas.getValue();
-                    //System.out.println( carpeta.get( "nombre_modulo" ) );
                     BC.BarreCarpeta( carpeta.get( "comando_impresion" ).toString(), carpeta.get( "impresora" ).toString(), carpeta.get( "ruta" ).toString(),
                             carpeta.get( "extension_archivo" ).toString() ); 
                 }
-                //tiempo_transcurrido += ( tiempo_final - tiempo_inicio );
-                //System.out.println("Timpo transcurrido : " + tiempo_transcurrido + " Tipo impresion : " + tipo_impresion );
-                //System.out.println( (intervalo_descarga * 1000 ) + ">=" + tiempo_transcurrido);
             //busca si es el caso con descarga
                 if( tipo_impresion.equals( "3" ) && (   tiempo_transcurrido >= ( intervalo_descarga * 1000 ) ) ){
                     //System.out.println("Entra en descarga de archivo");

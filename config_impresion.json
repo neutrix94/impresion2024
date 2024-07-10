@@ -1,11 +1,11 @@
 {
-  "tipo_impresion": "3",
-  "path_local": "/Applications/XAMPP/htdocs/desarrollo_cobros_e_impresion",
+  "tipo_impresion": "2",
+  "path_local": "",
   "modulos": [
     {
       "nombre_modulo": "Talón de Pago",
-      "impresora": "oki_pos",
-      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "impresora": "Oki407II_Tr_01",
+      "comando_impresion": "\"WINDOWS___ROUTE/SumatraPDF/SumatraPDF.exe\" -silent -print-settings \"1,noscale\" -print-to \"{IMPRESORA}\" \"{ARCHIVO}\"",
       "ruta": "cache/Matriz/talones_pago",
       "endpoint_api_destino": "",
       "usuario": "Matriz",
@@ -14,8 +14,8 @@
     },
     {
       "nombre_modulo": "Cotización de venta",
-      "impresora": "oki_pos",
-      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "impresora": "Oki407II_Tr_01",
+      "comando_impresion": "\"WINDOWS___ROUTE/SumatraPDF/SumatraPDF.exe\" -silent -print-settings \"1,noscale\" -print-to \"{IMPRESORA}\" \"{ARCHIVO}\"",
       "ruta": "cache/Matriz/cotizacion_venta",
       "endpoint_api_destino": "",
       "usuario": "Matriz",
@@ -24,7 +24,7 @@
     },
     {
       "nombre_modulo": "Devolución antes de validación",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/devoluciones",
       "endpoint_api_destino": "",
@@ -34,7 +34,7 @@
     },
     {
       "nombre_modulo": "Etiquetas de precio medianas",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/etiqueta_precio_medianas",
       "endpoint_api_destino": "",
@@ -44,7 +44,7 @@
     },
     {
       "nombre_modulo": "Edición de nota de venta",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/devoluciones",
       "endpoint_api_destino": "",
@@ -54,7 +54,7 @@
     },
     {
       "nombre_modulo": "Devolución después de validación",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/devoluciones",
       "endpoint_api_destino": "",
@@ -64,7 +64,7 @@
     },
     {
       "nombre_modulo": "Ticket de venta",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/ventas",
       "endpoint_api_destino": "",
@@ -74,17 +74,17 @@
     },
     {
       "nombre_modulo": "Solicitud de factura ",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/solicitudes_factura",
       "endpoint_api_destino": "",
       "usuario": "Matriz",
-      "habilitado": "1",
+      "habilitado": "0",
       "extension_archivo": "pdf"
     },
     {
       "nombre_modulo": "Corte de caja",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/cortes_caja",
       "endpoint_api_destino": "",
@@ -94,17 +94,17 @@
     },
     {
       "nombre_modulo": "Etiquetas empaquetado de caja sello y paquete",
-      "impresora": "oki_pos",
-      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "impresora": "TE210_precios",
+      "comando_impresion": "cmd.exe /c COPY /B {ARCHIVO} \\\\127.0.0.1\\{IMPRESORA}",
       "ruta": "cache/Matriz/etiqueta_empaquetado_paquetes",
       "endpoint_api_destino": "",
       "usuario": "Matriz",
       "habilitado": "0",
-      "extension_archivo": "pdf"
+      "extension_archivo": "txt"
     },
     {
       "nombre_modulo": "Validación de corte caja",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/validaciones_cortes_caja",
       "endpoint_api_destino": "",
@@ -114,17 +114,17 @@
     },
     {
       "nombre_modulo": "Etiquetas empaquetado de pieza",
-      "impresora": "oki_pos",
-      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "impresora": "impresora_pz",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
       "ruta": "cache/Matriz/etiqueta_empaquetado_piezas",
       "endpoint_api_destino": "",
       "usuario": "Matriz",
       "habilitado": "0",
-      "extension_archivo": "pdf"
+      "extension_archivo": "txt"
     },
     {
       "nombre_modulo": "Transferencias Rápidas",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/transferencias_rapidas",
       "endpoint_api_destino": "",
@@ -134,7 +134,7 @@
     },
     {
       "nombre_modulo": "Recepción de Transferencias",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/recepcion_transferencias",
       "endpoint_api_destino": "",
@@ -144,7 +144,7 @@
     },
     {
       "nombre_modulo": "Etiquetas de precio grandes",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/etiqueta_precio_grandes",
       "endpoint_api_destino": "",
@@ -154,7 +154,7 @@
     },
     {
       "nombre_modulo": "Ventas pendientes de validar",
-      "impresora": "oki_pos",
+      "impresora": "impresora_pq_cj",
       "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
       "ruta": "cache/Matriz/validaciones_pendientes",
       "endpoint_api_destino": "",
@@ -163,20 +163,50 @@
       "extension_archivo": "pdf"
     },
     {
-      "nombre_modulo": "Transferencias Rápidas",
-      "impresora": "impresora_pz",
+      "nombre_modulo": "Etiquetas empaquetado de caja sello y paquete",
+      "impresora": "TE210",
       "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
-      "ruta": "cache/Matriz/ventas/ejemplo_001",
+      "ruta": "cache/Matriz/etiqueta_empaquetado_paquetes/andres",
       "endpoint_api_destino": "",
-      "usuario": "Andres etiquetas ",
+      "usuario": "Andres  Reyes ",
+      "habilitado": "0",
+      "extension_archivo": "txt"
+    },
+    {
+      "nombre_modulo": "Etiquetas empaquetado de pieza",
+      "impresora": "TLP2844",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_empaquetado_piezas/andrespz",
+      "endpoint_api_destino": "",
+      "usuario": "Andres  Reyes ",
+      "habilitado": "0",
+      "extension_archivo": "txt"
+    },
+    {
+      "nombre_modulo": "Etiquetas empaquetado de caja sello y paquete",
+      "impresora": "TE210",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_empaquetado_paquetes/yes",
+      "endpoint_api_destino": "",
+      "usuario": "Yesenia Lopez Avalos",
+      "habilitado": "0",
+      "extension_archivo": "txt"
+    },
+    {
+      "nombre_modulo": "Etiquetas empaquetado de pieza",
+      "impresora": "TLP2844",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/etiqueta_empaquetado_piezas/yespz",
+      "endpoint_api_destino": "",
+      "usuario": "Yesenia Lopez Avalos",
       "habilitado": "0",
       "extension_archivo": "txt"
     }
   ],
   "puerto_impresion": "1337",
   "intervalo_descarga": "30",
-  "url_api": "http://sistemageneralcasa.com/desarrollo_linea_2024",
-  "url_api_local": "http://192.168.1.223/desarrollo_cobros_e_impresion",
+  "url_api": "http://192.168.1.223/desarrollo_cobros_e_impresion",
+  "url_api_local": "",
   "id_sucursal": "1",
   "intervalo_impresion": "3",
   "nombre_sucursal": "Matriz"

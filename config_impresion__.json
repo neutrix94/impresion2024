@@ -1,0 +1,1793 @@
+{
+  "tipo_impresion": "3",
+  "path_local": "/Applications/XAMPP/htdocs/desarrollo_cobros_e_impresion",
+  "modulos": [
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "ejemplo_001",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "",
+      "usuario": "Matriz",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Talón de Pago",
+      "impresora": "oki_pos",
+      "comando_impresion": "lp -d {IMPRESORA} {ARCHIVO}",
+      "ruta": "cache/Matriz/talones_pago/cj_mt",
+      "endpoint_api_destino": "",
+      "usuario": "cajero matriz ",
+      "habilitado": "1",
+      "extension_archivo": "pdf"
+    },
+    {
+      "nombre_modulo": "Ventas pendientes de validar",
+      "impresora": "oki_pos",
+      "comando_impresion": "lpr -P {IMPRESORA} -o raw {ARCHIVO}",
+      "ruta": "cache/Matriz/validaciones_pendientes",
+      "endpoint_api_destino": "wrf",
+      "usuario": "Encargado Matriz ",
+      "habilitado": "0",
+      "extension_archivo": "pdf"
+    }
+  ],
+  "puerto_impresion": "1337",
+  "intervalo_descarga": "30",
+  "url_api": "http://sistemageneralcasa.com/desarrollo_sincronizacion_2024",
+  "url_api_local": "http://192.168.1.223/desarrollo_cobros_e_impresion",
+  "id_sucursal": "1",
+  "intervalo_impresion": "3",
+  "nombre_sucursal": "Matriz"
+}
