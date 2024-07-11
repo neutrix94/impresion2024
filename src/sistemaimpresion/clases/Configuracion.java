@@ -168,14 +168,61 @@ public class Configuracion {
         String sucursal = id_sucursal + " - " + nombre_sucursal;
        //libreria de verificacion de carpetas
        Carpetas carpetas = new Carpetas( path_local, url_api );
-    //carpetas generales
-        JSONArray modulos = new JSONArray( configuraciones.getJSONArray("modulos") );
-        for (int i = 0; i < modulos.length(); i++) {
-            JSONObject contenido_modulos = new JSONObject ( modulos.get(i).toString() );
-            Boolean habilitado = ( contenido_modulos.getString("habilitado").equals("1") ? true : false );
+       //consultar api (impresoras)
+        //String urlParaVisitar = URL_API;//info.logArea.append( "URL API : " + urlParaVisitar + "\n" );
+/*Oscar para actualizar modulos de impresion*/
+        String urlParaVisitar = url_api;
+        StringBuilder resultado = new StringBuilder();
+        URL url = new URL(urlParaVisitar + "/rest/print/obtener_configuracion_impresion" );
+        try{
+            HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
+            conexion.setRequestMethod("POST");
+            //conexion.setRequestProperty("Content-Type", "multipart/form-data;id_sucursal=" + 1);
+            String urlParameters = "id_sucursal=" + id_sucursal;
+        // Enviamos los datos por POST
+            conexion.setDoOutput(true);
+            DataOutputStream wr = new DataOutputStream(conexion.getOutputStream());
+            wr.writeBytes(urlParameters);
+            wr.flush();
+            wr.close();
+           // conexion.setRequestProperty("id_sucursal", "1");
+            BufferedReader rd = new BufferedReader(new InputStreamReader(conexion.getInputStream()));
+            String linea;
+            while ((linea = rd.readLine()) != null) {
+              resultado.append(linea);
+            }
+            rd.close();
+        }catch( Exception e ){
+            JOptionPane.showMessageDialog( null, "La url '" + url + "' es incrorrecta!" + resultado );
+            System.exit(0);
+        }
+       //procesa resultados
+        String tmp = resultado.toString();
+        //System.out.println( "Reg pendientes : " + tmp );
+        final JSONObject JArray = new JSONObject(tmp);
+        JSONArray modulos_nuevos = new JSONArray( JArray.getJSONArray("modulos") );
+       // System.out.println("Nuevos modulos : ");
+        //System.out.println(modulos_nuevos);
+        JSONArray modulos_anteriores = new JSONArray( configuraciones.getJSONArray("modulos") );
+        for (int i = 0; i < modulos_nuevos.length(); i++) {
+            JSONObject contenido_modulos = new JSONObject ( modulos_nuevos.get(i).toString() );
+        /*Comparacion para ver si el modulo estaba habilitado*/
+            Boolean habilitado = false;//( contenido_modulos.getString("habilitado").equals("1") ? true : false );
+            for (int j = 0; j < modulos_anteriores.length(); j++) {
+                JSONObject contenido_anterior = new JSONObject ( modulos_anteriores.get(j).toString() );
+                if( contenido_anterior.getString("id").equals( contenido_modulos.getString("id") )
+                    && contenido_anterior.getString("tipo").equals( contenido_modulos.getString("tipo") )
+                    && contenido_anterior.getString("habilitado").equals( "1" ) ){
+                    habilitado = true;
+                }
+            }
             String comando = contenido_modulos.getString("comando_impresion");
             String comando_ = comando;
-            if( ! "".equals(path_windows) ){   
+            String id_modulo = null;
+            if (contenido_modulos.has("id")) {
+                id_modulo = contenido_modulos.getString("id");
+            } 
+            if( ! "".equals(path_windows) ){//reemplaza ruta Sumatra en Windows
                 comando_ = comando.replace( "WINDOWS___ROUTE", path_windows);
             }
             formulario.modelo_tabla_impresoras.addRow( new Object[]{
@@ -186,10 +233,42 @@ public class Configuracion {
             contenido_modulos.getString("extension_archivo"),
             comando_,
             habilitado,
-            contenido_modulos.getString("endpoint_api_destino")} );
-           //verifica si la carpeta existe, si no existe la crea
+            contenido_modulos.getString("endpoint_api_destino"),
+            contenido_modulos.getString("tipo"),
+            id_modulo} );
             carpetas.verificacion_existencia_carpeta( contenido_modulos.getString("ruta") );
         }
+/*Oscar para actualizar modulos de impresion*/
+/*Esta era la version anterior*/
+    //carpetas generales
+       /* JSONArray modulos = new JSONArray( configuraciones.getJSONArray("modulos") );
+        System.out.println("Viejos modulos : ");
+        System.out.println(modulos);
+        for (int i = 0; i < modulos.length(); i++) {
+            JSONObject contenido_modulos = new JSONObject ( modulos.get(i).toString() );
+            Boolean habilitado = ( contenido_modulos.getString("habilitado").equals("1") ? true : false );
+            String comando = contenido_modulos.getString("comando_impresion");
+            String comando_ = comando;
+            String id_modulo = null;
+            if (contenido_modulos.has("id")) {
+                id_modulo = contenido_modulos.getString("id");
+            } 
+            if( ! "".equals(path_windows) ){//reemplaza ruta Sumatra en Windows
+                comando_ = comando.replace( "WINDOWS___ROUTE", path_windows);
+            }
+            formulario.modelo_tabla_impresoras.addRow( new Object[]{
+            contenido_modulos.getString("nombre_modulo"),
+            contenido_modulos.getString("usuario"),
+            contenido_modulos.getString("ruta"),
+            contenido_modulos.getString("impresora"),
+            contenido_modulos.getString("extension_archivo"),
+            comando_,
+            habilitado,
+            contenido_modulos.getString("endpoint_api_destino"),
+            contenido_modulos.getString("tipo"),
+            id_modulo} );
+            carpetas.verificacion_existencia_carpeta( contenido_modulos.getString("ruta") );
+        }*/
         if( tipo_impresion.equals( "2" ) ){
             //formulario.tipo_impresion_1.setSelected( false );
             formulario.tipo_impresion_2.setSelected( true );

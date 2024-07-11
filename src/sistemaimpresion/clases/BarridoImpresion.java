@@ -40,19 +40,19 @@ public class BarridoImpresion {
                 {
                     String command = comando;
                     if( es_windows ){
-                        System.out.println("SI REEEMPLAZA");
+                      //  System.out.println("SI REEEMPLAZA");
                         path = path.replace("/", "\\"); // Correcto
                     }else{
-                        System.out.println("NO REEMPLAZA");
+                      //  System.out.println("NO REEMPLAZA");
                     }
-                    System.out.println(path + files);
+                    //System.out.println(path + files);
                     command = command.replace("{IMPRESORA}", nombre); 
                     command = command.replace("{ARCHIVO}", path + files);
                     
                     //command = command.replace("\"", "\"");
                     File file = new File(path + files);
                     try{
-                        System.out.println(command);
+                        //System.out.println(command);
                         informeImpresion.append("\nImprimiendo archivo: " + path + files);//command
                         informeImpresion.append("\nComando: " + command);//command
                         path = path.replace("\\", "\\\\"); // Correcto
@@ -60,7 +60,7 @@ public class BarridoImpresion {
                          String linea;
                         BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()));
                         while ((linea = reader.readLine()) != null) {
-                            System.out.println(linea);
+                            //System.out.println(linea);
                         }
 
                         // Leer la salida de error del proceso (si hay alguna)

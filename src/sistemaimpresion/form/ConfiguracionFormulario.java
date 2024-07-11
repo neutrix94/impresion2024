@@ -107,14 +107,14 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Módulo", "Usuario", "Ruta", "Impresora", "Extensión", "Comando", "Habilitado", "URL API"
+                "Módulo", "Usuario", "Ruta", "Impresora", "Extensión", "Comando", "Habilitado", "URL API", "Tipo", "Id"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Boolean.class, java.lang.String.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Boolean.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, true, true, false
+                false, false, false, false, false, false, true, false, false, false
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -126,6 +126,10 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
             }
         });
         jScrollPane1.setViewportView(tabla_impresoras);
+        if (tabla_impresoras.getColumnModel().getColumnCount() > 0) {
+            tabla_impresoras.getColumnModel().getColumn(9).setResizable(false);
+            tabla_impresoras.getColumnModel().getColumn(9).setPreferredWidth(0);
+        }
 
         url_api_general.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -371,20 +375,18 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         int especificos = 0;
         for (int i = 0; i < modelo_tabla_impresoras.getRowCount(); i++) {
             JSONObject fila = new JSONObject();
-           // if( tabla_impresoras.getValueAt( i, 0 ).equals("Impresiones especificas : ") ){
-             //   especificos = 1;
-            //}else{
-            //for (int j = 0; j < modelo_tabla_impresoras.getColumnCount(); j++) {
+            String habilitado = ( tabla_impresoras.getValueAt( i, 6 ).equals(true) ? "1" : "0" );
+            
             fila.put( "nombre_modulo", tabla_impresoras.getValueAt( i, 0 ) );
             fila.put( "usuario", tabla_impresoras.getValueAt( i, 1 ) );
             fila.put( "ruta", tabla_impresoras.getValueAt( i, 2 ) );
             fila.put( "impresora", tabla_impresoras.getValueAt( i, 3 ) );
             fila.put( "extension_archivo", tabla_impresoras.getValueAt( i, 4 ) );
             fila.put( "comando_impresion", tabla_impresoras.getValueAt( i, 5 ) );
-            //fila.put( "habilitado", tabla_impresoras.getValueAt( i, 6 ) );
-            String habilitado = ( tabla_impresoras.getValueAt( i, 6 ).equals(true) ? "1" : "0" );
             fila.put( "habilitado", habilitado );
             fila.put( "endpoint_api_destino", tabla_impresoras.getValueAt( i, 7 ) );
+            fila.put( "tipo", tabla_impresoras.getValueAt( i, 8 ) );
+            fila.put( "id", tabla_impresoras.getValueAt( i, 9 ) );
             // if( especificos == 0 ){
             arreglo_impresoras.put( fila );
                 //}else{

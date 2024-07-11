@@ -15,6 +15,7 @@ import sistemaimpresion.clases.BarridoImpresion;
 import sistemaimpresion.form.informeImpresiones;
 
 import sistemaimpresion.clases.Configuracion;
+import sistemaimpresion.clases.ConfigurationUpdates;
 import sistemaimpresion.clases.DescargaArchivos;
 
 public class SistemaImpresion {
@@ -34,6 +35,10 @@ public class SistemaImpresion {
     public static Long tiempo_inicio, tiempo_final, tiempo_transcurrido = (long)0;
 
     public static void main(String[] args) throws InterruptedException, IOException, FileNotFoundException, ParseException {
+        /*ConfigurationUpdates Cu = new ConfigurationUpdates();
+        Cu.comparePrinters();
+        System.exit(0);*/
+        
         Configuracion c = new Configuracion();//instancia clase de configuracion
         File configuracion = new File("config_impresion.json");//comprueba si ya existe el archivo de configuracion
     	if (!configuracion.exists()) {
