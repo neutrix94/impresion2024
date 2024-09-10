@@ -28,7 +28,7 @@ public class SistemaImpresion {
     public static long intervalo_impresion, intervalo_descarga;
     public static int PUERTO_IMPRESION;
     private static ServerSocket SERVER_SOCKET;
-    public static int id_sucursal;
+    public static int id_sucursal, antiguedad_archivos;
     public static HashMap<String, Object> CONFIGURACION_GLOBAL = new HashMap<String, Object>();
     public static DefaultTableModel modelo_tabla_impresoras;
     
@@ -52,6 +52,7 @@ public class SistemaImpresion {
             URL_API_LOCAL = CONFIGURACION_GLOBAL.get("url_api_local").toString();
             tipo_impresion = CONFIGURACION_GLOBAL.get("tipo_impresion").toString();
             id_sucursal = Integer.parseInt( CONFIGURACION_GLOBAL.get("id_sucursal").toString() );
+            antiguedad_archivos = Integer.parseInt( CONFIGURACION_GLOBAL.get("antiguedad_archivos").toString() );
 
             URL_API = CONFIGURACION_GLOBAL.get( "url_api" ).toString();
             descarga_archivos = new DescargaArchivos( URL_API, PATH_LOCAL );
@@ -93,7 +94,7 @@ public class SistemaImpresion {
                     String claveExterna = carpetas.getKey().toString();
                     HashMap<String, Object> carpeta = (HashMap<String, Object>)carpetas.getValue();
                     BC.BarreCarpeta( carpeta.get( "comando_impresion" ).toString(), carpeta.get( "impresora" ).toString(), carpeta.get( "ruta" ).toString(),
-                            carpeta.get( "extension_archivo" ).toString() ); 
+                            carpeta.get( "extension_archivo" ).toString(), antiguedad_archivos ); 
                 }
             //busca si es el caso con descarga
                 if( tipo_impresion.equals( "3" ) && (   tiempo_transcurrido >= ( intervalo_descarga * 1000 ) ) ){

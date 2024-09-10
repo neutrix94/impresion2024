@@ -165,6 +165,7 @@ public class Configuracion {
         String nombre_sucursal = configuraciones.getString("nombre_sucursal");
         String url_api_local = configuraciones.getString("url_api_local");
         String path_windows = configuraciones.getString("path_windows");
+        String antiguedad_archivos = configuraciones.getString("antiguedad_archivos");
         String sucursal = id_sucursal + " - " + nombre_sucursal;
        //libreria de verificacion de carpetas
        Carpetas carpetas = new Carpetas( path_local, url_api );
@@ -289,6 +290,7 @@ public class Configuracion {
         formulario.path_local.setText( path_local );
         formulario.path_windows.setText( path_windows );
         formulario.id_sucursal.setSelectedItem(sucursal); //setText( id_sucursal );
+        formulario.antiguedad_archivos.setText(antiguedad_archivos);
         formulario.setVisible(true);
     }
     
@@ -311,6 +313,7 @@ public class Configuracion {
         arreglo_configuracion.put( "id_sucursal", configuraciones.getString("id_sucursal"));
         arreglo_configuracion.put( "url_api_local", configuraciones.getString("url_api_local"));
         arreglo_configuracion.put( "path_windows", configuraciones.getString("path_windows"));
+        arreglo_configuracion.put( "antiguedad_archivos", configuraciones.getString("antiguedad_archivos"));
     //carpetas generales
         JSONArray modulos = new JSONArray( configuraciones.getJSONArray("modulos") );
         HashMap<String, HashMap<String, Object>> arreglo_impresoras = new HashMap<>();
