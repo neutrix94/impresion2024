@@ -43,7 +43,7 @@ public class Configuracion {
         String[] registrosPendientes;
         String urlParaVisitar = URL_API;//info.logArea.append( "URL API : " + urlParaVisitar + "\n" );
         StringBuilder resultado = new StringBuilder();
-        URL url = new URL(urlParaVisitar + "/rest/print/obtener_configuracion_impresion");
+        URL url = new URL(urlParaVisitar + "/rest_v2/print/obtener_configuracion_impresion");
         HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
         conexion.setRequestMethod("POST");
         BufferedReader rd = new BufferedReader(new InputStreamReader(conexion.getInputStream()));
@@ -86,7 +86,7 @@ public class Configuracion {
         String[] registrosPendientes;
         String urlParaVisitar = url_api;
         StringBuilder resultado = new StringBuilder();
-        URL url = new URL(urlParaVisitar + "/rest/print/obtener_configuracion_impresion" );
+        URL url = new URL(urlParaVisitar + "/rest_v2/print/obtener_configuracion_impresion" );
         try{
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
@@ -176,7 +176,7 @@ public class Configuracion {
 /*Oscar para actualizar modulos de impresion*/
         String urlParaVisitar = url_api;
         StringBuilder resultado = new StringBuilder();
-        URL url = new URL(urlParaVisitar + "/rest/print/obtener_configuracion_impresion" );
+        URL url = new URL(urlParaVisitar + "/rest_v2/print/obtener_configuracion_impresion" );
         try{
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
