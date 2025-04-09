@@ -58,7 +58,8 @@ public class Configuracion {
 //solicita url del API
     public String solicitarUrlApi() throws IOException, ParseException{
         Object [] sucursales ={ "0 - Seleccionar Sucursal", "1 - Matriz", "2 - San Miguel", "3 - Trojes", "4 - Casa", "5 - Checo",
-        "6 - Palma", "7 - Viveros", "8 - Lopez", "9 - Lago", "10 - Centro Urbano", "11 - Satelite" };
+        "6 - Palma", "7 - Viveros", "8 - Lopez", "9 - Lago", "10 - Centro Urbano", "11 - Satelite", "12 - San Bartolo", "13 - Centella", 
+        "14 - NuevaSuc" };
         Object opcion = JOptionPane.showInputDialog(null,"Selecciona una sucursal", "Elegir",JOptionPane.QUESTION_MESSAGE,null,sucursales, sucursales[0]);;
         while( opcion.toString().equals( null ) || opcion.toString().equals( "0 - Seleccionar Sucursal" ) ){
             opcion = JOptionPane.showInputDialog(null,"Selecciona una sucursal", "Elegir",JOptionPane.QUESTION_MESSAGE,null,sucursales, sucursales[0]);
@@ -135,6 +136,7 @@ public class Configuracion {
             json.put( "nombre_sucursal", sucursal[1]);
             json.put( "url_api_local", "");
             json.put( "path_windows", "");
+            json.put( "antiguedad_archivos", "1");
             json.put("modulos", Arreglo.getJSONArray( "modulos" ) );
         } catch (JSONException e) {
             e.printStackTrace();

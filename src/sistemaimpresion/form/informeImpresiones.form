@@ -37,7 +37,7 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="0"/>
-    <Property name="title" type="java.lang.String" value="Servidor Impresion V3.0 (Desarrollado por Grafware 2024) Visita graftware.com"/>
+    <Property name="title" type="java.lang.String" value="Servidor Impresion V3.1 Aniguedad archivos (Desarrollado por Graftware 2024) Visita graftware.com"/>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
       <Color blue="ff" green="cc" red="cc" type="rgb"/>
     </Property>

@@ -178,7 +178,7 @@ public class informeImpresiones extends javax.swing.JFrame {
         jMenu1.setText("jMenu1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
-        setTitle("Servidor Impresion V3.0 (Desarrollado por Grafware 2024) Visita graftware.com");
+        setTitle("Servidor Impresion V3.1 Aniguedad archivos (Desarrollado por Graftware 2024) Visita graftware.com");
         setBackground(new java.awt.Color(204, 204, 255));
         addWindowFocusListener(new java.awt.event.WindowFocusListener() {
             public void windowGainedFocus(java.awt.event.WindowEvent evt) {

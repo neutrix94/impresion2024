@@ -41,6 +41,9 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         id_sucursal.addItem("9 - Lago");
         id_sucursal.addItem("10 - Centro Urbano");
         id_sucursal.addItem("11 - Satélite");
+        id_sucursal.addItem("12 - San Bartolo");
+        id_sucursal.addItem("13 - Centella");
+        id_sucursal.addItem("14 - NuevaSuc");
         //modelo_tabla_impresoras.addRow( new Object[]{"Example 001", } );
     }
 
@@ -215,7 +218,7 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         });
 
         jLabel8.setFont(new java.awt.Font("Kokonor", 0, 18)); // NOI18N
-        jLabel8.setText("Segundos anigüedad archivos :");
+        jLabel8.setText("Segundos antigüedad archivos :");
 
         antiguedad_archivos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -228,7 +231,7 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(26, Short.MAX_VALUE)
+                .addContainerGap(21, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1318, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
