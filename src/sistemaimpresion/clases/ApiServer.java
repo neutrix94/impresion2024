@@ -34,7 +34,9 @@ public class ApiServer {
     public static void iniciarApi() throws IOException {
         int port = 8090;
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-        server.createContext("/api/recibir_archivo", new SaludoHandler());
+        server.createContext("/api/recibir_archivo", new SaludoHandler());        
+        server.createContext("/", new home());
+
         server.setExecutor(null);
         server.start();
         System.out.println("Servidor iniciado en el puerto " + port);
@@ -115,6 +117,23 @@ public class ApiServer {
                 }
             // Enviar respuesta al cliente
                 String response = "Archivo recibido con éxito";
+                System.out.println(response);
+                exchange.sendResponseHeaders(200, 0);
+                OutputStream os = exchange.getResponseBody();
+                os.write(response.getBytes());
+                os.close();
+            } else {
+                exchange.sendResponseHeaders(405, -1);// Método no permitido
+            }
+        }
+    }
+    static class home implements HttpHandler {
+
+        @Override
+        public void handle(HttpExchange exchange) throws IOException {
+            if ("GET".equals(exchange.getRequestMethod()) || "POST".equals(exchange.getRequestMethod())) {
+            // Enviar respuesta al cliente
+                String response = "El servicio DE API JAVA esta corriendo exitosamente.\nEndpoints : \n(POST, GET)/ \n(POST)/api/recibir_archivo";
                 System.out.println(response);
                 exchange.sendResponseHeaders(200, 0);
                 OutputStream os = exchange.getResponseBody();

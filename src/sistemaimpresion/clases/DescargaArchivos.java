@@ -35,7 +35,7 @@ public class DescargaArchivos {
         StringBuilder resultado = new StringBuilder();
         String archivos_descargados = "";
         try{
-            URL url = new URL( this.URL_API + "/rest/print/get_print_files" );
+            URL url = new URL( this.URL_API + "/rest_v2/print/get_print_files" );
             System.out.println("URL : " + url);
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
@@ -138,7 +138,7 @@ public class DescargaArchivos {
         //ruta_origen+=nombre;
     //Definimos el directorio de descarga del archivo
         try{
-            URL url = new URL( this.URL_API + "/rest/print/actualizar_status_archivos" );
+            URL url = new URL( this.URL_API + "/rest_v2/print/actualizar_status_archivos" );
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
             //conexion.setRequestProperty("Content-Type", "multipart/form-data;id_sucursal=" + 1);

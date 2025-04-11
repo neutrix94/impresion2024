@@ -73,8 +73,8 @@ public class Configuracion {
             this.URL_API = JOptionPane.showInputDialog( "Ingresa la URL del API de Configuración" );
             if( this.URL_API == "" || ( ! this.URL_API.contains( "http://" ) && ! this.URL_API.contains( "https://" ) ) ){
          JOptionPane.showMessageDialog( null, "La url '" + this.URL_API + "' es incrorrecta en !" );
-                url_valida = false;//url = JOptionPane.showInputDialog( "Ingresa la URL del API de Configuración" );
             }else{
+                url_valida = false;//url = JOptionPane.showInputDialog( "Ingresa la URL del API de Configuración" );
                 url_valida = this.validaUrlApi( this.URL_API, sucursal );
             }
         }
@@ -106,7 +106,7 @@ public class Configuracion {
             }
             rd.close();
         }catch( Exception e ){
-            JOptionPane.showMessageDialog( null, "La url '" + url + "' es incrorrecta!" + resultado );
+            JOptionPane.showMessageDialog( null, "La url '" + url + "' es incrorrecta!" + e + resultado );
             return false;
         }
        //procesa resultados
