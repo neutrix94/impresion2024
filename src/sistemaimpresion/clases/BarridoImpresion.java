@@ -25,7 +25,7 @@ public class BarridoImpresion {
         this.path_local = path; 
     }
     
-    public void BarreCarpeta(String comando, String nombre, String ruta_tkt, String extension, int antiguedad_archivos) throws InterruptedException, IOException{
+    public void BarreCarpeta(String comando, String nombre, String ruta_tkt, String extension, int antiguedad_archivos, Boolean convertir_a_img) throws InterruptedException, IOException{
     //Definicion de path
         String path = this.path_local+ "/" +ruta_tkt + "/";
         String files;
@@ -51,10 +51,51 @@ public class BarridoImpresion {
                         Instant now = Instant.now();// Obtener la fecha y hora actual
                         Duration duration = Duration.between(creationInstant, now);// Calcular la duración entre la fecha de creación y la fecha actual
 
+                        File file = new File(path + files);
                         if (files.endsWith( extension.toUpperCase() ) || files.endsWith( extension.toLowerCase() )){
                             if (duration.getSeconds() >= antiguedad_archivos ) {// Verificar si han pasado 2 segundos 
                                 System.out.println("Han pasado " + antiguedad_archivos + " segundos o más desde la creación del archivo.");
                                 String command = comando;
+                                System.out.println("convertir_a_img : " + convertir_a_img + extension.toLowerCase());
+                            //implementacion Oscar 2025-05-07 para conversion del archivo a imagen
+                                if(extension.toLowerCase().equals("pdf") && convertir_a_img.equals(true) ){
+                                    String comando_conversion = "pdftoppm -jpeg {ARCHIVO} {ARCHIVO}";
+                                    comando_conversion = comando_conversion.replace("{ARCHIVO}", path + files); //path + files
+                                    try{
+                                        //System.out.println(command);
+                                        informeImpresion.append("Convirtiendo archivo: " + path + files);//commandpath + files
+                                        informeImpresion.append("\nComando: " + comando_conversion);//command
+                                        System.out.println("\nComando: " + comando_conversion);
+                                        path = path.replace("\\", "\\\\"); // Correcto
+                                        Process proceso_conversion = Runtime.getRuntime().exec(comando_conversion);
+                                        String linea;
+                                        BufferedReader reader = new BufferedReader(new InputStreamReader(proceso_conversion.getInputStream()));
+                                        while ((linea = reader.readLine()) != null) {
+                                            //System.out.println(linea);
+                                        }
+                                        System.out.println("Pasa 1");
+                                    // Leer la salida de error del proceso (si hay alguna)
+                                        BufferedReader errorReader = new BufferedReader(new InputStreamReader(proceso_conversion.getErrorStream()));
+                                        while ((linea = errorReader.readLine()) != null) {
+                                            System.err.println(linea);
+                                        }
+                                        proceso_conversion.waitFor();
+                                        System.out.println("Pasa 2");
+                                        
+                                        if(proceso_conversion.exitValue() == 0){
+                                            file.delete();//elimina archivo
+                                            informeImpresion.append("\nEliminando archivo: " + path + files + "\n");
+                                        }else{
+                                            informeImpresion.append("\nError al convertir archivo : " + command + " :: " + proceso_conversion.exitValue() + "\n");
+                                        }
+                                       // Thread.sleep(500);
+                                        files = files += "-1.jpg";//actualiza el nombre del archivo
+                                        System.out.println("files : " + files);
+                                    }catch(IOException ioe){
+                                        System.out.println("Error al convertir : " + ioe);
+                                    }
+                                    
+                                }
                                 if( es_windows ){
                                   //  System.out.println("SI REEEMPLAZA");
                                     path = path.replace("/", "\\"); // Correcto
@@ -63,10 +104,10 @@ public class BarridoImpresion {
                                 }
                                 //System.out.println(path + files);
                                 command = command.replace("{IMPRESORA}", nombre); 
-                                command = command.replace("{ARCHIVO}", path + files);
+                                command = command.replace("{ARCHIVO}", path + files);//path + 
 
                                 //command = command.replace("\"", "\"");
-                                File file = new File(path + files);
+                              //  File file = new File(path + files);
                                 try{
                                     //System.out.println(command);
                                     informeImpresion.append("\nImprimiendo archivo: " + path + files);//command

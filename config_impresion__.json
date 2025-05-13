@@ -1,7 +1,7 @@
 {
   "tipo_impresion": "2",
   "antiguedad_archivos": "1",
-  "path_local": "/Applications/MAMP/htdocs/php_8",
+  "path_local": "",
   "modulos": [
     {
       "nombre_modulo": "Ventas pendientes de validar",
@@ -14,7 +14,7 @@
       "habilitado": "0",
       "id": "50",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": true
     },
     {
       "nombre_modulo": "Talón de Pago",
@@ -24,10 +24,10 @@
       "ruta": "cache/CASA/talones_pago",
       "endpoint_api_destino": "",
       "usuario": "CASA",
-      "habilitado": "1",
+      "habilitado": "0",
       "id": "51",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "1"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Cotización de venta",
@@ -40,7 +40,7 @@
       "habilitado": "0",
       "id": "52",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Devolución antes de validación",
@@ -53,7 +53,7 @@
       "habilitado": "0",
       "id": "54",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Edición de nota de venta",
@@ -66,7 +66,7 @@
       "habilitado": "0",
       "id": "55",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Devolución después de validación",
@@ -79,7 +79,7 @@
       "habilitado": "0",
       "id": "56",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Ticket de venta",
@@ -92,7 +92,7 @@
       "habilitado": "0",
       "id": "57",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Solicitud de factura ",
@@ -105,7 +105,7 @@
       "habilitado": "0",
       "id": "58",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Corte de caja",
@@ -118,7 +118,7 @@
       "habilitado": "0",
       "id": "60",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Validación de corte caja",
@@ -131,7 +131,7 @@
       "habilitado": "0",
       "id": "62",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Transferencias Rápidas",
@@ -144,7 +144,7 @@
       "habilitado": "0",
       "id": "63",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Recepción de Transferencias",
@@ -157,7 +157,7 @@
       "habilitado": "0",
       "id": "64",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "surtimiento de ventas",
@@ -170,7 +170,7 @@
       "habilitado": "0",
       "id": "275",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Etiquetas de precio grandes",
@@ -182,8 +182,8 @@
       "usuario": "CASA",
       "habilitado": "0",
       "id": "49",
-      "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "extension_archivo": "txt",
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Etiquetas de precio medianas",
@@ -195,8 +195,8 @@
       "usuario": "CASA",
       "habilitado": "0",
       "id": "53",
-      "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "extension_archivo": "txt",
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Etiquetas empaquetado de caja sello y paquete",
@@ -209,7 +209,7 @@
       "habilitado": "0",
       "id": "59",
       "extension_archivo": "txt",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Etiquetas empaquetado de pieza",
@@ -222,7 +222,7 @@
       "habilitado": "0",
       "id": "61",
       "extension_archivo": "txt",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Etiquetas de precio medianas con Ofertas",
@@ -235,7 +235,7 @@
       "habilitado": "0",
       "id": "293",
       "extension_archivo": "txt",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Etiquetas de precio grandes con Ofertas",
@@ -248,7 +248,7 @@
       "habilitado": "0",
       "id": "294",
       "extension_archivo": "txt",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Etiquetas de precio anterior (oferta)",
@@ -261,7 +261,7 @@
       "habilitado": "0",
       "id": "295",
       "extension_archivo": "txt",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Conversion de Talón de Pago a Imagen",
@@ -274,7 +274,7 @@
       "habilitado": "0",
       "id": "374",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Conversion de Cotización de venta a imagen",
@@ -287,7 +287,7 @@
       "habilitado": "0",
       "id": "389",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     },
     {
       "nombre_modulo": "Conversion de Ticket de venta a imagen",
@@ -300,13 +300,13 @@
       "habilitado": "0",
       "id": "404",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": false
     }
   ],
   "puerto_impresion": "1337",
   "intervalo_descarga": "30",
   "url_api": "https://pruebascdll2024.space/desarrollo_2025/sistemaGeneralPHP8",
-  "url_api_local": "http://192.168.1.253/php_8",
+  "url_api_local": "",
   "path_windows": "",
   "id_sucursal": "4",
   "intervalo_impresion": "3",

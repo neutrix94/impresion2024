@@ -94,7 +94,7 @@ public class SistemaImpresion {
                     String claveExterna = carpetas.getKey().toString();
                     HashMap<String, Object> carpeta = (HashMap<String, Object>)carpetas.getValue();
                     BC.BarreCarpeta( carpeta.get( "comando_impresion" ).toString(), carpeta.get( "impresora" ).toString(), carpeta.get( "ruta" ).toString(),
-                            carpeta.get( "extension_archivo" ).toString(), antiguedad_archivos ); 
+                            carpeta.get( "extension_archivo" ).toString(), antiguedad_archivos, Boolean.parseBoolean(carpeta.get("convertir_pdf_a_imagen").toString()) );// carpeta.get( "convertir_pdf_a_imagen" ).
                 }
             //busca si es el caso con descarga
                 if( tipo_impresion.equals( "3" ) && (   tiempo_transcurrido >= ( intervalo_descarga * 1000 ) ) ){

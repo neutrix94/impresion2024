@@ -112,14 +112,14 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Módulo", "Usuario", "Ruta", "Impresora", "Extensión", "Comando", "Habilitado", "URL API", "Tipo", "Id"
+                "Módulo", "Usuario", "Ruta", "Impresora", "Extensión", "Comando", "Habilitado", "URL API", "Tipo", "Id", "Convertir a img"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Boolean.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Boolean.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Boolean.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, true, false, false, false
+                false, false, false, false, false, false, true, false, false, false, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -397,6 +397,7 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
         for (int i = 0; i < modelo_tabla_impresoras.getRowCount(); i++) {
             JSONObject fila = new JSONObject();
             String habilitado = ( tabla_impresoras.getValueAt( i, 6 ).equals(true) ? "1" : "0" );
+            String convertir_a_img = ( tabla_impresoras.getValueAt( i, 10 ).equals(true) ? "1" : "0" );
             
             fila.put( "nombre_modulo", tabla_impresoras.getValueAt( i, 0 ) );
             fila.put( "usuario", tabla_impresoras.getValueAt( i, 1 ) );
@@ -408,6 +409,7 @@ public class ConfiguracionFormulario extends javax.swing.JFrame {
             fila.put( "endpoint_api_destino", tabla_impresoras.getValueAt( i, 7 ) );
             fila.put( "tipo", tabla_impresoras.getValueAt( i, 8 ) );
             fila.put( "id", tabla_impresoras.getValueAt( i, 9 ) );
+            fila.put( "convertir_pdf_a_imagen", convertir_a_img );
             // if( especificos == 0 ){
             arreglo_impresoras.put( fila );
                 //}else{

@@ -211,6 +211,7 @@ public class Configuracion {
             JSONObject contenido_modulos = new JSONObject ( modulos_nuevos.get(i).toString() );
         /*Comparacion para ver si el modulo estaba habilitado*/
             Boolean habilitado = false;//( contenido_modulos.getString("habilitado").equals("1") ? true : false );
+            Boolean convertir_a_img = false;//contenido_modulos.getBoolean("convertir_pdf_a_imagen");//.equals("1") ? true : false );
             for (int j = 0; j < modulos_anteriores.length(); j++) {
                 JSONObject contenido_anterior = new JSONObject ( modulos_anteriores.get(j).toString() );
                 if( contenido_anterior.getString("id").equals( contenido_modulos.getString("id") )
@@ -218,6 +219,11 @@ public class Configuracion {
                     && contenido_anterior.getString("habilitado").equals( "1" ) ){
                     habilitado = true;
                 }
+            }
+        //check de conversion a imagen
+            System.out.println("CONVERSION : " + contenido_modulos.getString("convertir_pdf_a_imagen"));
+            if(contenido_modulos.getString("convertir_pdf_a_imagen").equals("1")){
+                convertir_a_img = true;
             }
             String comando = contenido_modulos.getString("comando_impresion");
             String comando_ = comando;
@@ -234,11 +240,12 @@ public class Configuracion {
             contenido_modulos.getString("ruta"),
             contenido_modulos.getString("impresora"),
             contenido_modulos.getString("extension_archivo"),
-            comando_,
+            comando_, 
             habilitado,
             contenido_modulos.getString("endpoint_api_destino"),
             contenido_modulos.getString("tipo"),
-            id_modulo} );
+            id_modulo,
+            convertir_a_img} );//contenido_modulos.getString("convertir_pdf_a_imagen")
             carpetas.verificacion_existencia_carpeta( contenido_modulos.getString("ruta") );
         }
 /*Oscar para actualizar modulos de impresion*/
@@ -323,11 +330,16 @@ public class Configuracion {
         for (int i = 0; i < modulos.length(); i++) {
             JSONObject contenido_modulos = new JSONObject ( modulos.get(i).toString() );
             Boolean habilitado = ( contenido_modulos.getString("habilitado").equals("1") ? true : false );
+            Boolean convertir_a_img = false;//contenido_modulos.getBoolean("convertir_pdf_a_imagen");//( contenido_modulos.getString("convertir_pdf_a_imagen").equals("1") ? true : false );Boolean.parseBoolean()
+
             HashMap<String, Object> impresora = new HashMap<>();
             if( habilitado == true ){
                 String comando = contenido_modulos.getString("comando_impresion");
                 String comando_ = comando.replace( "WINDOWS___ROUTE", configuraciones.getString("path_windows"));
                 String llave = "impresora_" + contador_impresoras;
+                if(contenido_modulos.getString("convertir_pdf_a_imagen").equals("1")){
+                    convertir_a_img = true;
+                }
                 impresora.put( "nombre_modulo", contenido_modulos.getString("nombre_modulo") );            
                 impresora.put( "usuario", contenido_modulos.getString("usuario") );
                 impresora.put( "ruta", contenido_modulos.getString("ruta") );
@@ -335,6 +347,7 @@ public class Configuracion {
                 impresora.put( "extension_archivo", contenido_modulos.getString("extension_archivo") );
                 impresora.put( "comando_impresion", comando_ );//contenido_modulos.getString("comando_impresion")
                 impresora.put( "endpoint_api_destino", contenido_modulos.getString("endpoint_api_destino") );
+                impresora.put( "convertir_pdf_a_imagen",  convertir_a_img);//contenido_modulos.getString("convertir_pdf_a_imagen")
                 arreglo_impresoras.put(llave, impresora );
                 contador_impresoras ++;
             }

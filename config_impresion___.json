@@ -1,7 +1,7 @@
 {
   "tipo_impresion": "2",
   "antiguedad_archivos": "1",
-  "path_local": "/Applications/MAMP/htdocs/php_8",
+  "path_local": "",
   "modulos": [
     {
       "nombre_modulo": "Ventas pendientes de validar",
@@ -14,7 +14,7 @@
       "habilitado": "0",
       "id": "50",
       "extension_archivo": "pdf",
-      "convertir_pdf_a_imagen": "0"
+      "convertir_pdf_a_imagen": "1"
     },
     {
       "nombre_modulo": "Talón de Pago",
@@ -24,7 +24,7 @@
       "ruta": "cache/CASA/talones_pago",
       "endpoint_api_destino": "",
       "usuario": "CASA",
-      "habilitado": "1",
+      "habilitado": "0",
       "id": "51",
       "extension_archivo": "pdf",
       "convertir_pdf_a_imagen": "1"
@@ -182,7 +182,7 @@
       "usuario": "CASA",
       "habilitado": "0",
       "id": "49",
-      "extension_archivo": "pdf",
+      "extension_archivo": "txt",
       "convertir_pdf_a_imagen": "0"
     },
     {
@@ -195,7 +195,7 @@
       "usuario": "CASA",
       "habilitado": "0",
       "id": "53",
-      "extension_archivo": "pdf",
+      "extension_archivo": "txt",
       "convertir_pdf_a_imagen": "0"
     },
     {
@@ -306,7 +306,7 @@
   "puerto_impresion": "1337",
   "intervalo_descarga": "30",
   "url_api": "https://pruebascdll2024.space/desarrollo_2025/sistemaGeneralPHP8",
-  "url_api_local": "http://192.168.1.253/php_8",
+  "url_api_local": "",
   "path_windows": "",
   "id_sucursal": "4",
   "intervalo_impresion": "3",
